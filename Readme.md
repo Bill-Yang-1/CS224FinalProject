@@ -40,7 +40,7 @@ Inspired by other SOTA static analysis tools, we selected PMD as the basic frame
 ```
 java -jar IPMD.jar
 ```
-* You can also use IDEA or Eclipse to run our code. You will need to run `BetterPMD.java` which stores under path: `./src/main/java/BetterPMD.java`.
+* You can also use IDEA or Eclipse to run our code. You will need to run `IPMD.java` which stores under path: `./src/main/java/IPMD.java`.
 ```
 javac IPMD.java
 java IPMD
