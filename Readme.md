@@ -54,4 +54,4 @@ File ended with `-external.xml` means running IPMD with `only external patch met
 File ended with `-both.xml` means running IPMD with `both data flow analysis and external patch methods`.
 
 # Conclusion
-We have identified several causes of false positive warnings caused by PMD, and proposed iPMD to improve the performance of the method in the face of these problems in a targeted manner. The experimental results show that our modified approach iPMD performs better and achieves a lower false positive rate which is @yaqi on average.
+We have identified several causes of false positive warnings caused by PMD, and proposed iPMD to improve the performance of the method in the face of these problems in a targeted manner. The experimental results show that our modified approach iPMD performs better and achieves a lower false positive rate which is 14.1839\% on average.
