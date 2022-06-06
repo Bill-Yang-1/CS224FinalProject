@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.32.0" timestamp="2022-06-06T14:03:45.438">
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-bottleleung\CrawlDouyuDanmu\src\main\java\MessageType.java">
+<violation beginline="1" endline="13" begincolumn="1" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="MessageType" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes, interfaces, enums and annotations must belong to a named package
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-bottleleung\InsulinPump\People.java">
+<violation beginline="5" endline="28" begincolumn="1" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="People" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes, interfaces, enums and annotations must belong to a named package
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-bottleleung\InsulinPump\InsulinPump.java">
+<violation beginline="4" endline="59" begincolumn="1" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="InsulinPump" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes, interfaces, enums and annotations must belong to a named package
+</violation>
+<violation beginline="20" endline="27" begincolumn="12" endcolumn="5" rule="MissingOverride" ruleset="Best Practices" class="InsulinPump" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'run()' is missing an @Override annotation.
+</violation>
+<violation beginline="23" endline="25" begincolumn="20" endcolumn="13" rule="MissingOverride" ruleset="Best Practices" class="InsulinPump" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'run()' is missing an @Override annotation.
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-bottleleung\CrawlDouyuDanmu\src\main\java\Start.java">
+<violation beginline="3" endline="12" begincolumn="1" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="Start" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes, interfaces, enums and annotations must belong to a named package
+</violation>
+<violation beginline="3" endline="12" begincolumn="20" endcolumn="1" rule="UseUtilityClass" ruleset="Design" class="Start" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-bottleleung\domain\User.java">
+<violation beginline="8" endline="9" begincolumn="9" endcolumn="2" rule="UnnecessaryConstructor" ruleset="Code Style" package="cn.hncu.domain" class="User" method="User" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#unnecessaryconstructor" priority="3">
+Avoid unnecessary constructors - the compiler will generate these for you
+</violation>
+<violation beginline="8" endline="9" begincolumn="9" endcolumn="2" rule="UncommentedEmptyConstructor" ruleset="Documentation" package="cn.hncu.domain" class="User" method="User" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_documentation.html#uncommentedemptyconstructor" priority="3">
+Document empty constructor
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-bottleleung\chat\src\com\hjy\web\servlet\LoginServlet.java">
+<violation beginline="14" endline="16" begincolumn="12" endcolumn="5" rule="UnnecessaryConstructor" ruleset="Code Style" package="com.hjy.web.servlet" class="LoginServlet" method="LoginServlet" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#unnecessaryconstructor" priority="3">
+Avoid unnecessary constructors - the compiler will generate these for you
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-bottleleung\filter\LoginFilter.java">
+<violation beginline="17" endline="18" begincolumn="70" endcolumn="2" rule="UncommentedEmptyMethodBody" ruleset="Documentation" package="cn.hncu.filter" class="LoginFilter" method="init" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_documentation.html#uncommentedemptymethodbody" priority="3">
+Document empty method body
+</violation>
+<violation beginline="33" endline="34" begincolumn="24" endcolumn="2" rule="UncommentedEmptyMethodBody" ruleset="Documentation" package="cn.hncu.filter" class="LoginFilter" method="destroy" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_documentation.html#uncommentedemptymethodbody" priority="3">
+Document empty method body
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-bottleleung\filter\CharsetFilter.java">
+<violation beginline="16" endline="17" begincolumn="70" endcolumn="2" rule="UncommentedEmptyMethodBody" ruleset="Documentation" package="cn.hncu.filter" class="CharsetFilter" method="init" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_documentation.html#uncommentedemptymethodbody" priority="3">
+Document empty method body
+</violation>
+<violation beginline="40" endline="41" begincolumn="24" endcolumn="2" rule="UncommentedEmptyMethodBody" ruleset="Documentation" package="cn.hncu.filter" class="CharsetFilter" method="destroy" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_documentation.html#uncommentedemptymethodbody" priority="3">
+Document empty method body
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-bottleleung\chat\src\hjy\Hjy.java">
+<violation beginline="23" endline="26" begincolumn="12" endcolumn="5" rule="UnnecessaryConstructor" ruleset="Code Style" package="hjy" class="Hjy" method="Hjy" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#unnecessaryconstructor" priority="3">
+Avoid unnecessary constructors - the compiler will generate these for you
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-bottleleung\java-combinations\src\main\java\com\hmkcode\Recursive.java">
+<violation beginline="6" endline="45" begincolumn="24" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.hmkcode" class="Recursive" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="6" endline="45" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.hmkcode" class="Recursive" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'Recursive' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper|Constants)'
+</violation>
+<violation beginline="20" endline="20" begincolumn="4" endcolumn="10" rule="ControlStatementBraces" ruleset="Code Style" package="com.hmkcode" class="Recursive" method="combination" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="24" endline="25" begincolumn="4" endcolumn="25" rule="ControlStatementBraces" ruleset="Code Style" package="com.hmkcode" class="Recursive" method="combination" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="24" endline="25" begincolumn="4" endcolumn="25" rule="ControlStatementBraces" ruleset="Code Style" package="com.hmkcode" class="Recursive" method="combination" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="29" endline="30" begincolumn="4" endcolumn="19" rule="ControlStatementBraces" ruleset="Code Style" package="com.hmkcode" class="Recursive" method="combination" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="36" endline="37" begincolumn="4" endcolumn="69" rule="ControlStatementBraces" ruleset="Code Style" package="com.hmkcode" class="Recursive" method="combination" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="36" endline="37" begincolumn="4" endcolumn="69" rule="ControlStatementBraces" ruleset="Code Style" package="com.hmkcode" class="Recursive" method="combination" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-bottleleung\java-combinations\src\main\java\com\hmkcode\ForwardBackward.java">
+<violation beginline="5" endline="95" begincolumn="30" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.hmkcode" class="ForwardBackward" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="19" endline="19" begincolumn="7" endcolumn="7" rule="LocalVariableNamingConventions" ruleset="Code Style" package="com.hmkcode" class="ForwardBackward" method="combination" variable="N" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The local variable name 'N' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="58" endline="58" begincolumn="6" endcolumn="23" rule="ControlStatementBraces" ruleset="Code Style" package="com.hmkcode" class="ForwardBackward" method="combination" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="81" endline="81" begincolumn="4" endcolumn="12" rule="ControlStatementBraces" ruleset="Code Style" package="com.hmkcode" class="ForwardBackward" method="fact" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="83" endline="83" begincolumn="4" endcolumn="24" rule="ControlStatementBraces" ruleset="Code Style" package="com.hmkcode" class="ForwardBackward" method="fact" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="90" endline="92" begincolumn="3" endcolumn="3" rule="ForLoopCanBeForeach" ruleset="Best Practices" package="com.hmkcode" class="ForwardBackward" method="print" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#forloopcanbeforeach" priority="3">
+This for loop can be replaced by a foreach loop
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-bottleleung\java-combinations\Combination.java">
+<violation beginline="5" endline="95" begincolumn="26" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.hmkcode" class="Combination" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="14" endline="14" begincolumn="57" endcolumn="57" rule="FormalParameterNamingConventions" ruleset="Code Style" package="com.hmkcode" class="Combination" method="combination" variable="K" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#formalparameternamingconventions" priority="1">
+The method parameter name 'K' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="18" endline="18" begincolumn="7" endcolumn="7" rule="LocalVariableNamingConventions" ruleset="Code Style" package="com.hmkcode" class="Combination" method="combination" variable="N" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The local variable name 'N' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="58" endline="58" begincolumn="6" endcolumn="26" rule="ControlStatementBraces" ruleset="Code Style" package="com.hmkcode" class="Combination" method="combination" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="81" endline="81" begincolumn="4" endcolumn="12" rule="ControlStatementBraces" ruleset="Code Style" package="com.hmkcode" class="Combination" method="fact" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="83" endline="83" begincolumn="4" endcolumn="24" rule="ControlStatementBraces" ruleset="Code Style" package="com.hmkcode" class="Combination" method="fact" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="90" endline="92" begincolumn="3" endcolumn="3" rule="ForLoopCanBeForeach" ruleset="Best Practices" package="com.hmkcode" class="Combination" method="print" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#forloopcanbeforeach" priority="3">
+This for loop can be replaced by a foreach loop
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-bottleleung\CrawlDouyuDanmu\src\main\java\DouyuBarrageHandler.java">
+<violation beginline="7" endline="108" begincolumn="1" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="DouyuBarrageHandler" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes, interfaces, enums and annotations must belong to a named package
+</violation>
+<violation beginline="31" endline="42" begincolumn="20" endcolumn="13" rule="MissingOverride" ruleset="Best Practices" class="DouyuBarrageHandler" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'run()' is missing an @Override annotation.
+</violation>
+<violation beginline="38" endline="40" begincolumn="23" endcolumn="21" rule="IdenticalCatchBranches" ruleset="Code Style" class="DouyuBarrageHandler" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#identicalcatchbranches" priority="3">
+'catch' branch identical to 'IOException' branch
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-bottleleung\InsulinPump\PumpMain.java">
+<violation beginline="15" endline="109" begincolumn="1" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="PumpMain" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes, interfaces, enums and annotations must belong to a named package
+</violation>
+<violation beginline="15" endline="109" begincolumn="23" endcolumn="1" rule="UseUtilityClass" ruleset="Design" class="PumpMain" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="43" endline="50" begincolumn="20" endcolumn="13" rule="MissingOverride" ruleset="Best Practices" class="PumpMain" method="actionPerformed" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+</violation>
+<violation beginline="65" endline="65" begincolumn="9" endcolumn="47" rule="GuardLogStatement" ruleset="Best Practices" class="PumpMain" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="89" endline="89" begincolumn="21" endcolumn="115" rule="GuardLogStatement" ruleset="Best Practices" class="PumpMain" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-bottleleung\InsulinPump\PumpWindow.java">
+<violation beginline="15" endline="115" begincolumn="1" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="PumpWindow" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes, interfaces, enums and annotations must belong to a named package
+</violation>
+<violation beginline="22" endline="22" begincolumn="13" endcolumn="27" rule="SingularField" ruleset="Design" class="PumpWindow" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_design.html#singularfield" priority="3">
+Perhaps 'charge' could be replaced by a local variable.
+</violation>
+<violation beginline="23" endline="23" begincolumn="13" endcolumn="34" rule="SingularField" ruleset="Design" class="PumpWindow" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_design.html#singularfield" priority="3">
+Perhaps 'insertInsulin' could be replaced by a local variable.
+</violation>
+<violation beginline="25" endline="25" begincolumn="25" endcolumn="28" rule="UnusedPrivateField" ruleset="Best Practices" class="PumpWindow" variable="pump" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'pump'.
+</violation>
+<violation beginline="25" endline="25" begincolumn="13" endcolumn="29" rule="SingularField" ruleset="Design" class="PumpWindow" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_design.html#singularfield" priority="3">
+Perhaps 'pump' could be replaced by a local variable.
+</violation>
+<violation beginline="85" endline="88" begincolumn="20" endcolumn="13" rule="MissingOverride" ruleset="Best Practices" class="PumpWindow" method="actionPerformed" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+</violation>
+<violation beginline="93" endline="96" begincolumn="20" endcolumn="13" rule="MissingOverride" ruleset="Best Practices" class="PumpWindow" method="actionPerformed" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-bottleleung\java-combinations\src\main\java\com\hmkcode\Shifting.java">
+<violation beginline="4" endline="66" begincolumn="1" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.hmkcode" class="Shifting" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="18" endline="19" begincolumn="6" endcolumn="38" rule="ControlStatementBraces" ruleset="Code Style" package="com.hmkcode" class="Shifting" method="combination" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="35" endline="35" begincolumn="10" endcolumn="13" rule="ControlStatementBraces" ruleset="Code Style" package="com.hmkcode" class="Shifting" method="combination" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="50" endline="50" begincolumn="10" endcolumn="35" rule="ControlStatementBraces" ruleset="Code Style" package="com.hmkcode" class="Shifting" method="combination" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="61" endline="63" begincolumn="3" endcolumn="3" rule="ForLoopCanBeForeach" ruleset="Best Practices" package="com.hmkcode" class="Shifting" method="print" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#forloopcanbeforeach" priority="3">
+This for loop can be replaced by a foreach loop
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-bottleleung\java-excel-poi\src\main\java\com\hmkcode\poi\AppRead.java">
+<violation beginline="24" endline="59" begincolumn="1" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.hmkcode.poi" class="AppRead" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="32" endline="34" begincolumn="5" endcolumn="3" rule="IdenticalCatchBranches" ruleset="Code Style" package="com.hmkcode.poi" class="AppRead" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#identicalcatchbranches" priority="3">
+'catch' branch identical to 'InvalidFormatException' branch
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-bottleleung\java-excel-poi\src\main\java\com\hmkcode\poi\AppWrite.java">
+<violation beginline="18" endline="68" begincolumn="1" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.hmkcode.poi" class="AppWrite" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="50" endline="50" begincolumn="26" endcolumn="32" rule="CloseResource" ruleset="Error Prone" package="com.hmkcode.poi" class="AppWrite" method="main" variable="fileOut" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this FileOutputStream object are closed after use
+</violation>
+<violation beginline="59" endline="61" begincolumn="5" endcolumn="3" rule="IdenticalCatchBranches" ruleset="Code Style" package="com.hmkcode.poi" class="AppWrite" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#identicalcatchbranches" priority="3">
+'catch' branch identical to 'FileNotFoundException' branch
+</violation>
+</file>
+</pmd>

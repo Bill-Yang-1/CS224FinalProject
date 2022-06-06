@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.32.0" timestamp="2022-06-06T14:03:42.479">
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-gaopu\MapSort\src\com\hmkcode\ValueComparator.java">
+<violation beginline="13" endline="22" begincolumn="10" endcolumn="3" rule="MissingOverride" ruleset="Best Practices" package="com.hmkcode" class="ValueComparator" method="compare" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'compare(Object, Object)' is missing an @Override annotation.
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-gaopu\MicroWave\MicroWaveMain.java">
+<violation beginline="4" endline="19" begincolumn="1" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="MicroWaveMain" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes, interfaces, enums and annotations must belong to a named package
+</violation>
+<violation beginline="4" endline="19" begincolumn="28" endcolumn="1" rule="UseUtilityClass" ruleset="Design" class="MicroWaveMain" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-gaopu\MapSort\src\com\hmkcode\Test.java">
+<violation beginline="7" endline="28" begincolumn="19" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.hmkcode" class="Test" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-gaopu\PullBookinfo\WriteBookInfoToFile.java">
+<violation beginline="8" endline="30" begincolumn="1" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="WriteBookInfoToFile" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes, interfaces, enums and annotations must belong to a named package
+</violation>
+<violation beginline="19" endline="19" begincolumn="16" endcolumn="25" rule="CloseResource" ruleset="Error Prone" class="WriteBookInfoToFile" method="run" variable="fileWriter" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this Writer object are closed after use
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-gaopu\MapSort\src\com\hmkcode\MapSort.java">
+<violation beginline="7" endline="19" begincolumn="22" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.hmkcode" class="MapSort" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="7" endline="19" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.hmkcode" class="MapSort" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'MapSort' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper|Constants)'
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-gaopu\MicroWave\MicroWave.java">
+<violation beginline="4" endline="107" begincolumn="1" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="MicroWave" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes, interfaces, enums and annotations must belong to a named package
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-gaopu\medical_question\WriteAnswersToFile.java">
+<violation beginline="10" endline="37" begincolumn="1" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="WriteAnswersToFile" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes, interfaces, enums and annotations must belong to a named package
+</violation>
+<violation beginline="25" endline="36" begincolumn="12" endcolumn="5" rule="MissingOverride" ruleset="Best Practices" class="WriteAnswersToFile" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'run()' is missing an @Override annotation.
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-gaopu\mines\MinesFrame.java">
+<violation beginline="16" endline="16" begincolumn="10" endcolumn="26" rule="SingularField" ruleset="Design" package="mines" class="MinesFrame" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_design.html#singularfield" priority="3">
+Perhaps 'btnStart' could be replaced by a local variable.
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-gaopu\PullBookinfo\WriteInfoToDB.java">
+<violation beginline="12" endline="77" begincolumn="1" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="WriteInfoToDB" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes, interfaces, enums and annotations must belong to a named package
+</violation>
+<violation beginline="12" endline="77" begincolumn="28" endcolumn="1" rule="UseUtilityClass" ruleset="Design" class="WriteInfoToDB" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="15" endline="15" begincolumn="16" endcolumn="19" rule="LocalVariableNamingConventions" ruleset="Code Style" class="WriteInfoToDB" method="main" variable="XMLS" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The local variable name 'XMLS' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="17" endline="17" begincolumn="19" endcolumn="27" rule="CloseResource" ruleset="Error Prone" class="WriteInfoToDB" method="main" variable="statement" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this Statement object are closed after use
+</violation>
+<violation beginline="23" endline="25" begincolumn="11" endcolumn="9" rule="IdenticalCatchBranches" ruleset="Code Style" class="WriteInfoToDB" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#identicalcatchbranches" priority="3">
+'catch' branch identical to 'SQLException' branch
+</violation>
+<violation beginline="50" endline="50" begincolumn="25" endcolumn="53" rule="LiteralsFirstInComparisons" ruleset="Best Practices" class="WriteInfoToDB" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="52" endline="52" begincolumn="32" endcolumn="62" rule="LiteralsFirstInComparisons" ruleset="Best Practices" class="WriteInfoToDB" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="54" endline="54" begincolumn="32" endcolumn="63" rule="LiteralsFirstInComparisons" ruleset="Best Practices" class="WriteInfoToDB" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="56" endline="56" begincolumn="32" endcolumn="60" rule="LiteralsFirstInComparisons" ruleset="Best Practices" class="WriteInfoToDB" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="58" endline="58" begincolumn="32" endcolumn="61" rule="LiteralsFirstInComparisons" ruleset="Best Practices" class="WriteInfoToDB" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="60" endline="60" begincolumn="32" endcolumn="60" rule="LiteralsFirstInComparisons" ruleset="Best Practices" class="WriteInfoToDB" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="62" endline="62" begincolumn="32" endcolumn="59" rule="LiteralsFirstInComparisons" ruleset="Best Practices" class="WriteInfoToDB" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-gaopu\listeners\MyServletContextListener.java">
+<violation beginline="22" endline="22" begincolumn="19" endcolumn="20" rule="CloseResource" ruleset="Error Prone" package="cn.hncu.listeners" class="MyServletContextListener" method="contextInitialized" variable="br" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this FileReader object are closed after use
+</violation>
+<violation beginline="42" endline="42" begincolumn="16" endcolumn="17" rule="CloseResource" ruleset="Error Prone" package="cn.hncu.listeners" class="MyServletContextListener" method="contextDestroyed" variable="pw" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this PrintWriter object are closed after use
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-gaopu\spider\src\main\Main.java">
+<violation beginline="8" endline="22" begincolumn="19" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="main" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-gaopu\PullBookinfo\GetBookInfoThread.java">
+<violation beginline="12" endline="96" begincolumn="1" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="GetBookInfoThread" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes, interfaces, enums and annotations must belong to a named package
+</violation>
+<violation beginline="43" endline="43" begincolumn="31" endcolumn="46" rule="CloseResource" ruleset="Error Prone" class="GetBookInfoThread" method="run" variable="bookInfoResponse" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this CloseableHttpResponse object are closed after use
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-gaopu\spider\src\spider\Spider.java">
+<violation beginline="18" endline="80" begincolumn="21" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="spider" class="Spider" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="18" endline="80" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="spider" class="Spider" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'Spider' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper|Constants)'
+</violation>
+<violation beginline="26" endline="26" begincolumn="18" endcolumn="23" rule="CloseResource" ruleset="Error Prone" package="spider" class="Spider" method="getSource" variable="reader" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this BufferedReader object are closed after use
+</violation>
+<violation beginline="40" endline="40" begincolumn="5" endcolumn="19" rule="ControlStatementBraces" ruleset="Code Style" package="spider" class="Spider" method="getSource" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+</file>
+<file name="D:\BigThree\程序分析\Project\Test\IPMD\src\main\java\Testcase\testcase-gaopu\MicroWave\MicroWaveWindow.java">
+<violation beginline="8" endline="131" begincolumn="1" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="MicroWaveWindow" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes, interfaces, enums and annotations must belong to a named package
+</violation>
+<violation beginline="75" endline="77" begincolumn="20" endcolumn="13" rule="MissingOverride" ruleset="Best Practices" class="MicroWaveWindow" method="actionPerformed" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+</violation>
+<violation beginline="80" endline="82" begincolumn="20" endcolumn="13" rule="MissingOverride" ruleset="Best Practices" class="MicroWaveWindow" method="actionPerformed" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+</violation>
+<violation beginline="85" endline="87" begincolumn="20" endcolumn="13" rule="MissingOverride" ruleset="Best Practices" class="MicroWaveWindow" method="actionPerformed" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+</violation>
+<violation beginline="102" endline="108" begincolumn="20" endcolumn="13" rule="MissingOverride" ruleset="Best Practices" class="MicroWaveWindow" method="actionPerformed" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+</violation>
+<violation beginline="112" endline="114" begincolumn="20" endcolumn="13" rule="MissingOverride" ruleset="Best Practices" class="MicroWaveWindow" method="actionPerformed" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+</violation>
+<violation beginline="118" endline="123" begincolumn="20" endcolumn="13" rule="MissingOverride" ruleset="Best Practices" class="MicroWaveWindow" method="actionPerformed" externalInfoUrl="https://pmd.github.io/pmd-6.32.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+</violation>
+</file>
+</pmd>
