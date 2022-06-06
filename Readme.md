@@ -18,8 +18,8 @@ Inspired by other SOTA static analysis tools, we selected PMD as the basic frame
 |          |--testcase-gaopu
 |          |--testcase-HelloWorld521
 |          |--testcase-sample   
-|        |--IPMD.java                       /* core function to accomplish IPMD
-|        |--ImprovedMethod.java               /* data flow analysis and external patch
+|        |--IPMD.java                            /* core function to accomplish IPMD
+|        |--ImprovedMethod.java                  /* data flow analysis and external patch
 |        |--XML2CSV.java                         /* function to change xml files to csv files 
 |   |--IPMD.jar                                  /* The jar file of IPMD
 |   |--pom.xml                                   /* The configuration settings
